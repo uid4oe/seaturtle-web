@@ -1,0 +1,10 @@
+export const SIGN_UP = '/signup';
+export const SIGN_IN = '/signin';
+export const HOME = '/';
+export const MISSION = '/mission';
+export const ACCOUNT = '/account';
+export const PASSWORD_FORGET = '/pw-forget';
+export const USER_MANAGEMENT = '/user-management';
+export const MISSION_MANAGEMENT = '/mission-management';
+export const MISSION_HISTORY = '/mission-history';
+export const USER_DETAILS = '/user-management/:id';

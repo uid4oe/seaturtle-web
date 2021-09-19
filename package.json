@@ -1,0 +1,37 @@
+{
+  "name": "turtle-web-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@stardust-ui/docs-components": "^0.40.0",
+    "date-fns": "^2.11.1",
+    "firebase": "^7.13.1",
+    "geolib": "^3.2.1",
+    "google-map-react": "^1.1.7",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^3.4.1",
+    "recompose": "^0.30.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.88.1",
+    "typescript": "^3.7.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "firebase deploy",
+    "build and deploy": "react-scripts build && firebase deploy",
+    "test": "react-scripts test --env=jsdom --passWithNoTests",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@testing-library/react": "^10.3.0"
+  }
+}
